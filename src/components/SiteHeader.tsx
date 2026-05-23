@@ -17,7 +17,6 @@ export function SiteHeader() {
             { to: "/search", label: "실거래 조회" },
             { to: "/market", label: "시세 분석" },
             { to: "/analytics", label: "분석 대시보드" },
-            { to: "/admin", label: "데이터 적재" },
           ].map((l) => (
             <Link
               key={l.to}
